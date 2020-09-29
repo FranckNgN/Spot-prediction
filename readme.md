@@ -5,8 +5,13 @@
 
 # Python library used:
 -pandas
+
 -numpy
+
 -scipy
+
 -statesmodel
+
 -sklearn
+
 -matplotlib/ seaborn
