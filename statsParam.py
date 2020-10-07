@@ -19,7 +19,6 @@ def stationary_test(df):
         output['Critical value (%s)' % key] = value
     print(output)
 
-
 def corrParam(df):
     """[summary]
 
