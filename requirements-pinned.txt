@@ -1,0 +1,16 @@
+# Suggested pinned dependency versions (generated without installing).
+# These are recommended starting points — please test and adjust in your environment.
+pandas==2.0.3
+pandas-datareader==0.10.0
+numpy==1.25.0
+scikit-learn==1.2.2
+keras==2.13.1
+tensorflow==2.13.0
+matplotlib==3.7.1
+seaborn==0.12.2
+statsmodels==0.14.0
+pymongo==4.4.0
+pytest==7.3.1
+
+# To lock exact, create a venv, install requirements, then run:
+# python -m pip freeze > requirements.txt
