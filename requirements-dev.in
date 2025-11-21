@@ -1,0 +1,5 @@
+# Dev / test tools (unpinned)
+pytest
+black
+flake8
+isort

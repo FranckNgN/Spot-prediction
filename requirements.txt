@@ -1,11 +1,19 @@
-pandas
-pandas-datareader
-numpy
-scikit-learn
-keras
-tensorflow
-matplotlib
-seaborn
-statsmodels
-pymongo
-pytest
+
+# Pinned runtime and test dependencies (recommended lock file)
+pandas==2.0.3
+pandas-datareader==0.10.0
+numpy==1.25.0
+scikit-learn==1.2.2
+keras==2.13.1
+tensorflow==2.13.0
+matplotlib==3.7.1
+seaborn==0.12.2
+statsmodels==0.14.0
+pymongo==4.4.0
+pytest==7.3.1
+
+# NOTE: This file is a stable, pinned requirements file intended for CI and
+# reproducible installs. To regenerate from top-level manifests locally:
+# 1. Install pip-tools: `pip install pip-tools`
+# 2. Run: `pip-compile requirements.in` to produce this file
+# 3. (Optional) Run: `pip-compile requirements-dev.in -o requirements-dev.txt`

@@ -1,0 +1,11 @@
+pandas
+pandas-datareader
+numpy
+scikit-learn
+keras
+tensorflow
+matplotlib
+seaborn
+statsmodels
+pymongo
+pytest
